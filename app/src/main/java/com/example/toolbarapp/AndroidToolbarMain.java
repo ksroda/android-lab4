@@ -10,6 +10,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
@@ -50,11 +51,22 @@ public class AndroidToolbarMain extends AppCompatActivity {
                 }
 
         );*/
+
+
+    }
+
+    public void onProfileAction(MenuItem mi) {
+        Toast.makeText(AndroidToolbarMain.this, "clicking the Profile icon!", Toast.LENGTH_SHORT).show();
+    }
+
+    public void onDotsAction(MenuItem mi) {
+        Toast.makeText(AndroidToolbarMain.this, "clicking the More icon!", Toast.LENGTH_SHORT).show();
     }
 
     public void sendMessage(View view)
     {
-        Intent intent = new Intent(AndroidToolbarMain.this, AndroidToolbarExample.class);
+        Intent intent = new Intent(AndroidToolbarMain.this, AndroidToolbarSecond.class);
         startActivity(intent);
     }
+
 }

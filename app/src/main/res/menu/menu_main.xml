@@ -1,15 +1,17 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/miCompose"
+        android:id="@+id/miProfile"
         android:icon="@drawable/ic_mood_black_24dp"
         app:showAsAction="ifRoom"
-        android:title="Compose">
+        android:title="Compose"
+        android:onClick="onProfileAction" >
     </item>
     <item
-        android:id="@+id/miProfile"
+        android:id="@+id/miDots"
         android:icon="@drawable/ic_more_vert_black_24dp"
         app:showAsAction="ifRoom|withText"
-        android:title="Profile">
+        android:title="Profile"
+        android:onClick="onDotsAction" >
     </item>
 </menu>

@@ -9,7 +9,7 @@
         android:layout_height="58dp"
         android:background="@android:color/holo_blue_dark"
         android:minHeight="?attr/actionBarSize"
-        android:titleTextColor="@android:color/white">
+        android:theme="@android:style/ThemeOverlay.Material.Dark.ActionBar" >
     </android.support.v7.widget.Toolbar>
 
     <Button
