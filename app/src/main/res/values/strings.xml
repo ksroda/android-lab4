@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ToolbarApp</string>
+    <string name="toolbarTitle">Toolbar 2</string>
+    <string name="toolbarTitle2">Toolbar Main</string>
+</resources>
