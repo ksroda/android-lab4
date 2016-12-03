@@ -4,12 +4,10 @@ package com.example.toolbarapp;
  * Created by Kamila on 01.12.2016.
  */
 
-
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
-import android.widget.Toast;
 
 import com.example.toolbarapp.androidtoolbarexample.R;
 
@@ -22,7 +20,6 @@ public class AndroidToolbarSecond extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.second_activity);
         initToolBar();
-
     }
 
     public void initToolBar() {
