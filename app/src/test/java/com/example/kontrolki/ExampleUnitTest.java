@@ -1,4 +1,4 @@
-package com.example.toolbarapp;
+package com.example.kontrolki;
 
 import org.junit.Test;
 
