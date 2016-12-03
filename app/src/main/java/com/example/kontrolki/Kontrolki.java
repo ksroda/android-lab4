@@ -14,7 +14,7 @@ import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.Toast;
 
-public class Kontrolki extends Activity implements OnClickListener{
+public class Kontrolki extends Activity implements OnClickListener {
     private RadioButton rb1, rb2;
     private EditText et1, et2;
     private DatePicker dp;
@@ -22,8 +22,7 @@ public class Kontrolki extends Activity implements OnClickListener{
     private Button btn1, btn2;
 
     @Override
-    public void onCreate(Bundle savedInstanceState)
-    {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
         rb1 = (RadioButton) this.findViewById(R.id.radio0);
@@ -45,8 +44,7 @@ public class Kontrolki extends Activity implements OnClickListener{
         btn2.setOnClickListener(this);
     }
 
-    public void onClick(View v)
-    {
+    public void onClick(View v) {
         switch (v.getId())
         {
             case R.id.button1: wczytaj(); break;
